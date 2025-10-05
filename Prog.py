@@ -33,4 +33,7 @@ def analyze_motion(filename: str, distance_m: float = 20.0):
 
 
 if __name__ == "__main__":
+    print("DATA-1")
     steps, speed, duration = analyze_motion("DATA.xls", distance_m=20.0)
+    print("DATA-1")
+    steps, speed, duration = analyze_motion("DATA2.xls", distance_m=20.0)
